@@ -10,3 +10,5 @@ fvm flutter drive \
 --target=integration_test/scrolling_test.dart \
 --profile --no-dds
 ```
+
+## You can display result of performance test by open google chrome and type this "chrome://tracing/" to url text field and then open your json result file
