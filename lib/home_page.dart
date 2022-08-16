@@ -8,7 +8,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  List<String> items = List.generate(10000, (index) => 'Item: $index');
+  List<String> items = List.generate(1000, (index) => 'Item: $index');
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +21,10 @@ class _HomePageState extends State<HomePage> {
     return Center(
       child: ListView.builder(
         itemBuilder: (context, index) => ListTile(
-          title: Text(items[index]),
+          title: Text(
+            items[index],
+            key: Key('item_${index}_text'),
+          ),
         ),
       ),
     );
