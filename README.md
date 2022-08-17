@@ -12,6 +12,7 @@ fvm flutter drive \
 ```
 
 ## You can find the meaning of each data that show in report on the link below
-https://api.flutter.dev/flutter/flutter_driver/TimelineSummary/summaryJson.html
+- https://api.flutter.dev/flutter/flutter_driver/TimelineSummary/summaryJson.html
 
-## You can display result of performance test by open google chrome and type this "chrome://tracing/" to url text field and then open your json result file
+## ETC
+- You can display result of performance test by open google chrome and type this "chrome://tracing/" to url text field and then open your json result file
